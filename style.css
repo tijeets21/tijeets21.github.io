@@ -6,10 +6,26 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg,#0f172a,#1e3a8a);
-  color: white;
-  padding: 120px 20px;
+  position: relative;
+  background: url("profile.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(15,23,42,.9), rgba(30,58,138,.85));
+}
+
+.hero-content {
+  position: relative;
   text-align: center;
+  color: white;
+  max-width: 700px;
+  padding: 20px;
 }
 
 .profile-pic {

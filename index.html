@@ -3,14 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tijeet Singh Makkar</title>
+<title>Tijeet Singh Makkar | Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 
 <header class="hero">
   <div class="overlay"></div>
-
   <div class="hero-content">
     <img src="profile.jpg" class="profile-pic">
     <h1>Tijeet Singh Makkar</h1>
@@ -25,12 +26,12 @@
 <section class="about">
   <h2>About Me</h2>
   <p>
-    Computer Science (Honours) undergraduate at Conestoga College with strong backend,
-    DevOps, and enterprise systems experience. Skilled in building authentication microservices,
-    CI/CD pipelines, and AI-powered applications. AWS Certified AI Practitioner.
+    Computer Science (Honours) undergraduate at Conestoga College specializing in backend development,
+    DevOps pipelines, and enterprise-scale systems. Experienced in building secure microservices,
+    CI/CD workflows, and AI-powered applications. AWS Certified AI Practitioner.
   </p>
   <p>
-    Actively seeking software engineering internships for 2026–2027.
+    Seeking Software Engineering / ML internships for 2026–2027.
   </p>
 </section>
 
@@ -48,19 +49,19 @@
 
   <div class="project">
     <h3>Enterprise POS Auth Service</h3>
-    <p>RBAC secured microservice for enterprise point-of-sale systems.</p>
+    <p>RBAC-secured authentication microservice for multi-team enterprise POS platform.</p>
     <a href="https://github.com/tijeets21/enterprise-pos-auth-service" target="_blank">GitHub ↗</a>
   </div>
 
   <div class="project">
     <h3>CI/CD Pipeline Modernization</h3>
-    <p>End-to-end automated pipelines with quality gates and artifact packaging.</p>
+    <p>Automated quality pipelines using GitHub Actions, PyTest, SonarQube, Docker.</p>
     <a href="https://github.com/tijeets21/ci-cd-pipeline-modernization" target="_blank">GitHub ↗</a>
   </div>
 
   <div class="project">
     <h3>QuizGenie – AI Quiz Generator</h3>
-    <p>AI-powered PDF to quiz platform using OpenAI APIs.</p>
+    <p>AI-powered PDF to quiz platform with OpenAI integration.</p>
     <a href="https://github.com/tijeets21/QuizGenie-AI-Quiz-Generator" target="_blank">GitHub ↗</a>
   </div>
 </section>
@@ -75,6 +76,13 @@
 <footer>
   <p>© 2025 Tijeet Singh Makkar</p>
 </footer>
+
+<script>
+ScrollReveal().reveal('.about', { delay: 200, distance: '60px', origin: 'bottom' });
+ScrollReveal().reveal('.skills', { delay: 300, distance: '60px', origin: 'bottom' });
+ScrollReveal().reveal('.projects', { delay: 400, distance: '60px', origin: 'bottom' });
+ScrollReveal().reveal('.contact', { delay: 500, distance: '60px', origin: 'bottom' });
+</script>
 
 </body>
 </html>

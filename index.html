@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tijeet Singh Makkar | Portfolio</title>
+
+<title>Tijeet Singh Makkar | Backend & DevOps Engineer</title>
+<meta name="description" content="Backend & DevOps Engineer portfolio of Tijeet Singh Makkar. AWS Certified. AI & enterprise systems developer.">
+<meta name="keywords" content="Backend Developer, DevOps Engineer, AWS, CI/CD, Machine Learning, Tijeet Singh">
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -16,7 +19,7 @@
   <div class="hero-content">
     <img src="profile.jpg" class="profile-pic">
     <h1>Tijeet Singh Makkar</h1>
-    <p class="subtitle"><i class="fa-solid fa-code"></i> Backend & DevOps Engineer</p>
+    <p class="subtitle"><span id="typed"></span></p>
     <div class="hero-buttons">
       <a href="resume.pdf" class="btn primary" download>Download Resume</a>
     </div>
@@ -90,6 +93,16 @@
   <p>© 2025 Tijeet Singh Makkar</p>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+new Typed("#typed", {
+  strings: ["Backend Engineer", "DevOps Engineer", "AI Systems Developer"],
+  typeSpeed: 60,
+  backSpeed: 40,
+  loop: true
+});
+</script>
+
 <script>
 ScrollReveal().reveal('.about', { delay: 200, distance: '60px', origin: 'bottom' });
 ScrollReveal().reveal('.skills', { delay: 300, distance: '60px', origin: 'bottom' });
@@ -99,5 +112,6 @@ ScrollReveal().reveal('.contact', { delay: 500, distance: '60px', origin: 'botto
 
 </body>
 </html>
+
 
 
